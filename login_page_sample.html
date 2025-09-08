@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <style>
+          body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-image: url("IMG_20230113_101838_1.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+          }
+          #all{
+            width: fit-content;
+            border: 5px groove grey;
+            border-radius:30px;
+            padding:0px 100px;
+            margin: 100px;
+          }
+          input[type="text"],input[type="password"]{
+            border:2px solid black;
+            border-radius: 10px;
+            padding:10px;
+          }
+          .remember{
+            justify-content: space-between;
+          }
+          .login button{
+            background-color: blue;
+          }
+      
+        </style>
+    </head>
+    <body>
+        <div id="all">
+        <form><br><br>
+            
+            <div>
+            <h1 style="color: blueviolet;text-align: center;">LOGIN</h1>
+            </div>
+        <div>
+         <label for="username">Username:</label>
+         <input type="text" id="username" name="username" placeholder="Enter your username"><br><br>
+         <div>
+         <label for="password">Password:</label>
+         <input type="password" id="password" name="password">
+         </div>
+         <div class="remember">
+          <label for="Remember me">
+            <input type="checkbox">Remember me</label>
+            <a href="">Forgot password</a>
+         </div>
+       
+         <br><br>
+        <div class="login button" >
+         <input  type="submit" name="Login" value="LOGIN">
+         </div>
+         <div>
+          <p>Don't have an account?<a href=""><b>Sign up</b></a></p>
+         </div>
+
+        </form>
+        </div>
+    </body>
+</html>

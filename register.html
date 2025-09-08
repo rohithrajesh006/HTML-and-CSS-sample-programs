@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <form action="home.html" method="get">
+            <label for="name">Name</label>
+               <input type="text" name="full_name" id="name" placeholder="Enter the full name"  >
+            <br><br>
+            <label for="email">email</label>
+               <input type="email" name="email" id="email"><br><br>
+            <label for="dob">Date of birth:</label>
+               <input type="date" id="dob" name="dob"><br><br>
+            <label for="age">Age:</label>
+               <input type="number" name="age" id="age" min="18" max="50"><br><br>
+            <label for="gender">Gender:</label><br>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="Male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="gender" value="Female"><br><br>
+            <label for="address">Address:</label>
+                <textarea name="address" id="address" cols="40" rows="4" placeholder="Enter your full address"></textarea><br><br>
+            <label for="password">Password</label>
+                <input type="password" id="password" name="password"><br><br>
+            <label for="intrested activities">Intrested activities</label>
+            <select name="beaches" id="beaches">
+              <option></option>
+              <option value="1">Swimming</option>
+              <option value="2">Surfing</option>
+              <option value="3">Collecting seashells</option>
+            </select>
+            <br><br>
+            <label for="file">Upload file</label>
+               <input type="file" id="file" name="file"><br><br>
+
+            <input type="submit" value="Register">
+          
+            <button type="button">Get help</button>
+
+        </form>
+    </body>
+</html>
